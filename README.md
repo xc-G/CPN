@@ -5,6 +5,7 @@ pip install -r requirements.txt
 
 ## Usage
 * Download the ImageNet dataset and move validation images to labeled subfolders. To do this, you can use the following script: https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh
+* To use the MTLU, you can refer to the paper:Fast Image Restoration with Multi-bin Trainable Linear Units and the codebase: https://github.com/ShuhangGu/MTLU_ICCV2019.
 *  Train the models with the following command:
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port=23445 --use_env train_mobilenet.py \
