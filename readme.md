@@ -9,7 +9,8 @@ In this paper, we propose a learnable continuous piece-wise nonlinear activation
 
 * The main results on image classification and super-resolution are as follows:
 
-![image-20230428131758536](image\image-20230428131758536.png)
+![image-20230428131758536](https://github.com/xc-G/CPN/blob/main/image/image-20230428131758536.png)
+
 
 ## Usage
 
